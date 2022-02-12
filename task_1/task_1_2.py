@@ -3,14 +3,13 @@
 содержимое и длину соответствующих переменных.
 """
 
-
 WORDS = ['class', 'function', 'method']
 
 
 def from_str_to_bytes(WORDS: list):
     for word in WORDS:
-        word_bytes = bytes(word, 'utf-8')
-        print(f"{word_bytes} - {type(word_bytes)} - len {len(word_bytes)}")
+        str_byte = eval(f"b'{word}'")
+        print(str_byte, type(str_byte), len(str_byte))
 
 
 from_str_to_bytes(WORDS)
