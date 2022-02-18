@@ -58,4 +58,5 @@ def write_to_csv(file_name):
     print(f'Данные успешно сохранены в {file_name}')
 
 
-write_to_csv('result.csv')
+if __name__ == '__main__':
+    write_to_csv('result.csv')

@@ -1,1 +1,18 @@
-{"orders": []}
+{
+    "orders": [
+        {
+            "item": "test",
+            "quantity": "7",
+            "price": "15000",
+            "buyer": "John Doe",
+            "date": "01.01.1900"
+        },
+        {
+            "item": "test 2",
+            "quantity": "5",
+            "price": "50000",
+            "buyer": "Jane Doe",
+            "date": "02.02.2002"
+        }
+    ]
+}
