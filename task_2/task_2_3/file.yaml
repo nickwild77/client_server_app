@@ -1,0 +1,11 @@
+items:
+- iphone_13_pro
+- ipad_mini
+- magic_mouse
+- macbook_pro
+items_price:
+  ipad_mini: 400€-700€
+  iphone_13_pro: 600€-1000€
+  macbook_pro: 1000€-3000€
+  magic_mouse: 50€-70€
+items_quantity: 4
