@@ -14,7 +14,6 @@ from decos import log
 # Инициализация клиентского логера
 logger = logging.getLogger('client')
 
-
 # Функция создаёт словарь с сообщением о выходе.
 @log
 def create_exit_message(account_name):
